@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:21:52:20 -0300] "GET /conversor-spring HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:21:52:20 -0300] "GET /conversor-spring/ HTTP/1.1" 200 281 http-bio-9090-exec-2 103
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:21:52:20 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-3 0
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:21:52:27 -0300] "GET /conversor-spring/conversor HTTP/1.1" 200 796 http-bio-9090-exec-4 3387
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:21:52:31 -0300] "POST /conversor-spring/conversor HTTP/1.1" 500 4090 http-bio-9090-exec-5 182
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:21:54:18 -0300] "POST /conversor-spring/conversor HTTP/1.1" 200 771 http-bio-9090-exec-1 2092
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:22:06:43 -0300] "POST /conversor-spring/conversor HTTP/1.1" 200 755 http-bio-9090-exec-1 2155
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:22:07:29 -0300] "POST /conversor-spring/conversor HTTP/1.1" 200 749 http-bio-9090-exec-1 1761
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:22:07:32 -0300] "POST /conversor-spring/conversor HTTP/1.1" 200 749 http-bio-9090-exec-2 4
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:22:07:34 -0300] "POST /conversor-spring/conversor HTTP/1.1" 200 749 http-bio-9090-exec-3 6
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:22:07:45 -0300] "POST /conversor-spring/conversor HTTP/1.1" 200 749 http-bio-9090-exec-4 5
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:22:08:16 -0300] "POST /conversor-spring/conversor HTTP/1.1" 200 755 http-bio-9090-exec-1 1769
+0:0:0:0:0:0:0:1 - - [19/Apr/2021:22:08:25 -0300] "POST /conversor-spring/conversor HTTP/1.1" 200 755 http-bio-9090-exec-2 13

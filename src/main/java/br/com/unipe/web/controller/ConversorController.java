@@ -21,7 +21,6 @@ public class ConversorController {
 	@RequestMapping(value = "/conversor", method = RequestMethod.POST)
 	public ModelAndView conversorResposta(@ModelAttribute Moeda moeda) {
 		ModelAndView view = new ModelAndView("conversor");
-		view.addObject("nomeMoeda", moeda.getNomeMoeda());
 		view.addObject("valor",moeda.getValor());
 		return view;
 	}

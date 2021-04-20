@@ -11,24 +11,10 @@
     1 Dólar americano igual a 5,70 Real brasileiro
     1 Real brasileiro igual a 0,18 Dólar americano
 	*/
+	
 	function converter(){
-		
-		var nomeMoeda = document.getElementById("nomeMoeda");
 		var valor = document.getElementById("valor");
-		
-		if(nomeMoeda[0].checked){
-			//se a primeira opção for selecionada = real
-			//o valor para converter vira = 0,18 e é multiplicado pelo valor no form
-			valor = valor.value * 0.18;
-			
-			alert("A conversão deu: R$ " + valor);
-		}else if (nomeMoeda[1].checked) {
-			//se a segunda opção for selecionada = dólar
-			//o valor para converter vira = 5,70 e é multiplicado pelo valor no form
-			valor = valor.value * 5.70;
-			
-			alert("A conversão deu: $ " + valor);
-		}
+		alert("A conversão deu: $ " + valor.value * 0.18);
 	}
 	</script>
 	<meta charset="UTF-8">
@@ -36,14 +22,10 @@
 </head>
 <body>
 
-	<h2>1. Qual será a moeda a ser convertida?</h2>
 	<form:form name = "formMoeda" method="post" modelAttribute="moeda">
-		<p><form:radiobutton path = "nomeMoeda" id = "nomeMoeda" value = "real"/>BRL (Real brasileiro)</p>
-		<p><form:radiobutton path = "nomeMoeda" id = "nomeMoeda" value = "dolar"/>USD (Dólar americano)</p>
-
-	<h2>2. Qual é o valor?</h2>	
-		<p>Valor: <form:input type = "number" min = "0" path="valor" id = "valor"/></p>
-		<p><form:button onClick = "converter()" id = "converter">Converter</form:button></p>
+	<h2>1. Qual é o valor?</h2>	
+		<p>Valor em R$ <form:input path="valor" id = "valor"/></p>
+		<p><form:button onClick = "converter()">Converter</form:button></p>
 	</form:form>
 </body>
 </html>

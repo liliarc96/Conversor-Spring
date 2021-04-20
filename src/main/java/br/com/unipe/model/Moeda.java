@@ -4,21 +4,13 @@ public class Moeda {
 	
 	public Moeda() {}
 	
-	public Moeda(String nomeMoeda, float valor) {
+	public Moeda(float valor) {
 		super();
-		this.nomeMoeda = nomeMoeda;
 		this.valor = valor;
 	}
 	
-	private String nomeMoeda;
 	private float valor;
-	
-	public String getNomeMoeda() {
-		return nomeMoeda;
-	}
-	public void setNomeMoeda(String nomeMoeda) {
-		this.nomeMoeda = nomeMoeda;
-	}
+
 	public float getValor() {
 		return valor;
 	}
